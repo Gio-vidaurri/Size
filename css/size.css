@@ -1,0 +1,39 @@
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+html {
+min-height: 100%;
+}
+
+header {
+background: #fff;
+float: center;
+margin-top: 0px;
+border: 0px;
+padding: 0px;
+color: black;
+text-align: center;
+}
+
+body {
+background-image: url(..//img/salvador-dali-la_tentacion_de_san_antonio-noticias-totenart.jpg);
+/* cover / contain / 100px 100px / 100% auto*/
+-webkit-background-size: contain;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+background-color: red;
+height: 100%;
+}
+
+main {
+height: 100%;
+position: absolute;
+background-image: url(..////img/Vignniete.png);
+background-size: 100px 100px;
+color: #fff;
+
+}
